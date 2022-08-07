@@ -52,12 +52,14 @@ body {
     width: 250px;
     justify-content: center;
     align-items: center;
+    margin-right: 5px;
 }
 
 .item:hover{
     border-color: #0c0c0c2a;
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
     position:relative;
+    transition: all 0.3s;
 }
 .item-img {
     height: 200px;
@@ -129,6 +131,7 @@ body {
 }
 .buy-button:hover{
     background-color: #6464643a;
+    transition: all 0.3s;
 }
 
 .price-buy img{
