@@ -41,7 +41,6 @@ body {
 .items-container {
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 .item {
