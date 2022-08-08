@@ -42,7 +42,7 @@ body {
     flex-wrap: wrap;
     justify-self: center;
     width: 100%;
-    max-width: fit-content;
+    min-width: 1364px;
     margin: auto;
 }
 
@@ -56,7 +56,6 @@ body {
     background-color: #fff;
     max-height: fit-content;
     min-height: 55%;
-    width: fit-content;
     max-width: 23.5%;
     margin-right: 6px;
     margin-bottom: 6px;
@@ -70,7 +69,7 @@ body {
     
 }
 .item-img {
-    width:  100%;
+    width: 100%;
     margin-bottom: 8px;
     padding: 10px 0 0 15px;
 }
